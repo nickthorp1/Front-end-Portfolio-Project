@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/style.css" type="text/css" rel="stylesheet">
+   
+     <!-- Google Font-->
+     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body id='body'>
+
+    <!-- Navigation-->
+
+  <header>
+
+    <div class="navigation" id="navigation">
+        <li class="navItem">
+            <a class="nav-link" id="homeLink" href="#homeSection">Home</a>
+        </li>
+        <li class="navItem">
+            <a class="nav-link" href="#aboutMeSection">About</a>
+        </li>
+        <li class="navItem">
+            <a class="nav-link" href="#contactSection">Contact</a>
+        </li>
+        <li class="navItem">
+            <a class="nav-link" href="#newsLetterSection">Newsletter</a>
+        </li>
+    </div>
+
+  </header>
+
+  <!-- Hero section -->
+ 
+
+  <section class="hero" id="homeSection">
+
+   
+        <div class= "introText">
+            <div class="hello">Hello I'm</div>
+            <h2>Nick Thorp</h2>
+            <h4>Software engineer </h4>
+        </div>
+    
+    <div >
+        <img class="meIMG" src="Assets/hero.png">
+
+    </div>
+
+  </section>
+
+  <!-- About me section -->
+
+  <section class="aboutMe" id="aboutMeSection">
+
+    <div >
+        <img class= "aboutMeIMG" src="Assets/ab-img.png">
+    </div>   
+
+    <div class= "aboutMeText">
+        <h2> About Me</h2>
+        <p>Hello, I’m Nick and in this portfoio project used the following skills: </p>
+        <div class="techSkills">
+            <ul>
+                <li>JS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>GitHub</li> 
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<!-- Contact section -->
+
+
+<section id="contactSection">
+
+<div class="contactHeader"> 
+    <h2>Contact Me</h2>
+</div>
+
+<div class="contact" Id=contact>
+
+    <div class= "contactInfo">
+        <img class="infoIMG" src="./Assets/addressIcon.png">
+        <h3>Address</h3>
+        <p>1 Hdye Park Corner, London</p>
+    </div>
+
+    <div class= "contactInfo">
+        <img class="infoIMG" src="Assets/emailIcon.png">
+        <h3>Email</h3>
+        <p>nick.thorp@domain.com</p>
+    </div>
+
+    <div class= "contactInfo">
+        <img class="infoIMG" src="Assets/phoneIcon.png">
+        <h3>Phone</h3>
+        <p>+44 0712345678</p>
+    </div>
+</div>
+
+</section>
+
+
+
+<!-- Newsletter section -->
+
+<section class="Newsletter" id="newsLetterSection">
+
+    <div class="newsLetterHeader">
+        <h2>Newsletter</h2>
+    </div>
+
+    <div class="message">
+        <form action="submission.html" method="POST">
+            <h4>Sign up to Nick's Newsletter</h4>
+   
+
+            <label for="name"> Name</label> 
+            <input type="name" name="name" id="name">
+
+            <label for="email"> Email</label> 
+            <input type="text" name="email" id="email">
+
+            <input class="submit" type="submit" value="Sign up">
+
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p> Created by Nick Thorp</p>
+</footer>
+
+<script src="./JS/main.js" defer ></script> 
+
+</body>
+
+
